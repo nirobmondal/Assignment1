@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Azeret Mono;
+    text-align: center;
+}
+
+nav {
+    height: 60px;
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Azeret Mono; 
+}
+
+.banner {
+    background-image: url(./assets/Hero-bg.png);
+    background-size: cover;
+}
+
+.banner-items {
+    padding: 10px;
+    margin: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-png {
+    height: 200px;
+    width: 200px;
+}
+
+#hero-description {
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+#hero-button {
+    background-color: rgb(13, 16, 19);
+    font-family: Azeret Mono;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+main {
+    margin: 30px 150px;
+}
+
+.dev {
+    background-color: azure;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card2, .card4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:darkgrey;
+    border-radius: 10px;
+}
+
+.card3 {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.learn {
+    background-color: white;
+    padding: 15px;
+    font-family: Azeret Mono;
+    opacity: 0.7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.sub-card1, .sub-card2, .sub-card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.insp2 {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;;
+}
+
+iframe {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.target2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+}
+
+.skill1 {
+    background-color:palevioletred;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.skill2 {
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.skill3 {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding: 10px;
+}
